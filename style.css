@@ -371,3 +371,45 @@ button {
     justify-self: end;
 }
 
+.part6 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: lightblue;
+
+}
+
+.title6 {
+    grid-column: 1/4;
+    font-size: 4rem;
+    padding-bottom: 50px;
+}
+
+.part-6-1 {
+    width: 300px;
+    justify-self: center;
+    border: 2px solid gray;
+    background-color: lightcyan;
+    padding: 10px;
+}
+
+.part-6-2 {
+    width: 300px;
+    justify-self: center;
+    padding: 10px;
+    border: 2px solid gray;
+    background-color: lightcyan;
+}
+
+.part-6-3 {
+    width: 300px;
+    justify-self: center;
+    padding: 10px;
+    border: 2px solid gray;
+    background-color: lightcyan;
+}
+

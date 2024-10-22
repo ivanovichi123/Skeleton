@@ -136,3 +136,238 @@ button {
     padding-bottom: 5px;
     border-color: blue;
 }
+
+.part-2 {
+    background-color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.3fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.title2 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    font-size: 4rem;
+}
+
+.image-2-1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 50px;
+    height: 50px;
+}
+
+.part-2-1 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.image-2-2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 50px;
+    height: 50px;
+}
+
+.image-2-3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 50px;
+    height: 50px;
+}
+
+.image-2-4 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    width: 50px;
+    height: 50px;
+}
+
+.part-2-1 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.part-2-2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.part-2-3 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.part-2-4 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.part3 {
+    background-color: lightgrey;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.title3 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-size: 4rem;
+}
+
+.part-3-1 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.part-3-2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.part-3-3 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.part4 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 0.2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: url(Images/Office.jpg);
+    background-size: 100%;
+}
+
+.title4 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-size: 4rem;
+    padding-bottom: 40px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.image-4-1 {
+    align-self: top;
+    justify-self: center;
+    padding-top: 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.image-4-2 {
+    align-self: top;
+    justify-self: center;
+    padding-top: 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.image-4-3 {
+    align-self: top;
+    justify-self: center;
+    padding-top: 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.part-4-1 {
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+.part-4-2 {
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+.part-4-3 {
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+.part5 {
+    background-color: white;
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 50px;
+    row-gap: 30px;
+}
+
+.title5 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-size: 20px;
+}
+
+.image-5-4 {
+    grid-column: 3/4;
+    grid-row: 1/5;
+    background-image: url(Images/Cellphone.jpg);
+    background-size: 100%;
+}
+
+.part-5-1 {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.part-5-2 {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.part-5-3 {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.image-5-1 {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    justify-self: end;
+}
+
+.image-5-2 {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    justify-self: end;
+}
+
+.image-5-3 {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    justify-self: end;
+}
+
